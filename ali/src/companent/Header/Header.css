@@ -1,0 +1,91 @@
+
+/* body{
+    background-color: blue;
+    z-index: 3;
+} */
+
+.K-header{
+    background-color: white;
+    height: 105px;
+    border-bottom: 2.3px solid rgb(188, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+.K-logo{
+    position: relative;
+    left: -35px;
+    cursor: pointer;
+}
+.K-header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.link {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+
+}
+.link:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+.K-header ul li{
+    margin: 10px;
+}
+select{
+    border: none;
+    outline: none;
+    color: rgb(63, 238, 238);
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 9px 10px;
+}
+.K-1btn{
+border: 2.2px solid rgb(11, 190, 245);
+border-radius: 5px;
+color: rgb(11, 190, 245);
+margin-left: 10px;
+padding: 9px 15px;
+background-color: white;
+font-size: 14px;
+font-weight: 700;
+}
+.K-2btn {
+    border: 2.2px solid rgb(14, 206, 11);
+    border-radius: 5px;
+    color: rgb(14, 206, 11);
+    margin-left: 10px;
+    padding: 9px 15px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 700;
+    }
+.K-header ul li:hover{
+    color: rgb(0, 0, 0);
+}
+.span{
+    position: relative;
+    top: 8px;
+    font-weight: 10;
+}
+.K-1btn:hover{
+    background-color: rgb(11, 190, 245);
+    color: white;
+}
+.K-2btn:hover{
+    background-color: rgb(14, 206, 11);
+    color: white;
+}
+select:hover{
+    padding: 9px 10px;
+    background-color: rgb(228, 255, 255);
+}

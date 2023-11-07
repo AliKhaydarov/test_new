@@ -1,0 +1,81 @@
+
+
+.K-Fother{  
+    background-color: rgb(40, 39, 39);
+    height: 280px;
+    position: relative;
+    top: 5.5rem;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 290px;
+    grid-template-rows: 200px ;
+    gap: 10px;
+
+}
+.K-Fother-Buttom{
+    background-color: rgb(28, 27, 27);
+    height: 75px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(138, 138, 138);
+    position: relative;
+    top: 5.5rem;
+
+}
+.li1:hover{
+    color: rgb(38, 244, 134);
+    cursor: pointer;
+}
+.Box{
+    background-color: rgb(40, 39, 39);
+    position: relative;
+    top: 10px;
+    left: 270px;
+    color: white;       
+}
+.Box ul{
+    list-style: none;
+    position: relative;
+    left: -38px;
+}
+.Box ul li{
+    margin-top: 5px;
+    color: rgb(128, 128, 128);
+}
+.Box ul li:hover{
+    cursor: pointer;
+    color: rgb(38, 244, 134)
+}
+.Box p{
+    text-decoration: none;
+    color: rgb(38, 244, 134)
+}
+.Box p:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    color: rgb(38, 244, 134)
+}
+.F-Btn1{
+    border: 2.2px solid rgb(38, 244, 134);
+    border-radius: 5px;
+    color: white;
+    padding: 9px 60px;
+    background-color: rgb(40, 39, 39);
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+        font-weight: 700;
+}
+.i1{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(188, 188, 188);
+}
+.F-Btn1:hover{
+    background-color: rgb(38, 244, 134);
+}
+.i1:hover{
+    color: white;
+}

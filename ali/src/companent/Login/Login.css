@@ -1,0 +1,89 @@
+
+
+.L-top{
+    background-color: rgb(31, 10, 110);
+    width: 59em;
+    height: 90px;
+    position: relative;
+    top: 1.6rem;
+    left: 271px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.L-h1{
+    color: white;
+    position: relative;
+    left: 25px;
+}
+.L-a{
+    color: white;
+    position: relative;
+    left: -25px;
+    cursor: pointer;
+}
+
+.L-a2{
+    color: rgb(100, 100, 100);
+    font-weight: 400;
+}
+.L-a2:hover{
+    color: rgb(38, 244, 134);
+}
+.L-Cen{
+    background-color: white;
+    width: 59em;
+    height: 330px;
+    position: relative;
+    top: 1.6rem;
+    left: 271px;
+    border: 1px solid rgb(188, 188, 188);
+
+}
+.L-But{
+    background-color: whitesmoke;
+    width: 59em;
+    height: 75px;
+    position: relative;
+    top: 1.6rem;
+    left: 271px;
+    border: 1px solid rgb(188, 188, 188);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(100, 100, 100);
+    font-weight: 400;
+}
+.L-I{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: rgb(100, 100, 100);
+}
+label{
+    font-weight: 500;
+    position: relative;
+    top: 1.2rem;
+    left: 2rem;
+    margin-bottom: -100px;
+}
+input{
+    position: relative;
+    top: 2.1rem;
+    left: 2rem;
+    padding: 0.8rem ;
+    width: 25rem;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.L-btn{
+    position: relative;
+    left: 2.2rem;
+    padding: 0.1% 2rem;
+    background-color: rgb(125, 244, 46);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}

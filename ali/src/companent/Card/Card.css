@@ -1,0 +1,79 @@
+.Card{
+  display: grid;
+  grid-template-columns: auto auto auto auto  ;
+}
+@media (max-width: 430px) {
+  .Card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+} 
+@media (max-width: 380px) {
+  .Card{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+} 
+@media (max-width: 320px) {
+  .Card{
+    display: grid;
+    grid-template-columns: auto;
+  }
+} 
+
+.card{
+    margin-left: 50px;
+    background-color: whitesmoke;
+    width: 280px;
+    height: 450px;
+    margin: 10px;
+    border: 5px black solid;
+  }
+  .card img{
+    position: relative;
+    width: 280px;
+    height: 150px;
+  }
+  .card p{
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+  }
+  .card p{
+    position: relative;
+    top: -10px;
+    left: 10px;
+  }
+  .card h4{
+    position: relative;
+    top: -10px;
+    left: 10px;
+  }
+  .btn1{
+    background-color: grey;
+    padding: 5px 15px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+  }
+  .btn2{
+    background-color: grey;
+    padding: 5px 15px;
+    font-weight: 700;
+    position: relative;
+    left: 105px;
+    border: none;
+    outline: none;
+  }
+  .Border{
+    height: 27px;
+    width: 195px;
+    border: 2px solid grey;
+    position: relative;
+    left: 25px;
+  }
+  .Border span{
+    padding: 2px 5px;
+    font-weight: bolder;
+    position: relative;
+    left: 50px;
+  }

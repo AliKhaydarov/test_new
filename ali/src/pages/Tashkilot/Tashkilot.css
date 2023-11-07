@@ -1,0 +1,82 @@
+
+body{
+    background-color: whitesmoke;
+
+}
+.T-Cen{
+    margin-top: 55px;
+    font-size: 22px;
+    display: flex;
+    color: rgb(100, 100, 100);
+}
+.T-p{
+font-size: 15px;
+position: relative;
+top: -2rem;
+left: 17.5rem;
+font-weight: 400;
+}
+.T-p:hover{
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+}
+.span1{
+    position: relative;
+    top: -1.6rem;
+    left: 17.7rem;
+    font-weight: 1;
+    margin: 1px 10px;
+}
+.T-Cen2{
+    background-color: white;
+    height: 400vh;
+    width: 60rem;
+    position: relative;
+    top: -38px;
+    left: 18rem;
+    border: 0.1px solid rgb(217, 217, 217);
+}
+.T-p1{
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    position: relative;
+    left: 40px;
+    padding: 5px;
+}
+.T-p0{
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    position: relative;
+    left: 40px;
+    padding: 5px;
+}
+.T-h1{
+    color: rgb(0, 213, 255);
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.T-h2{
+    color: rgb(0, 213, 255);
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.T-li-1{
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+    margin-left: 30px;
+}
+.K-K{
+    color: rgb(0, 213, 255);
+}
+.K-K:hover{
+    color: rgb(0, 213, 255);
+        text-decoration-line: underline;
+}
